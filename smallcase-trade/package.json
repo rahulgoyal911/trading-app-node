@@ -1,0 +1,32 @@
+{
+  "name": "smallcase-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "dev": "nodemon start.js",
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-validator": "6.10.0",
+    "got": "11.8.2",
+    "http": "0.0.1-security",
+    "mongoose": "5.12.1",
+    "morgan": "1.10.0",
+    "winston": "3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "7.22.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "prettier": "2.2.1"
+  }
+}
